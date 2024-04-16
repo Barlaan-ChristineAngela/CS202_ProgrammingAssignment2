@@ -62,9 +62,4 @@ Many of the changes that you will make (abstract base class, templates, etc) may
 ### The example executable:
 An example executable is provided in this repository. You should be able to run it from your project folder.
 If you encounter a “permission denied” error when attempting to run the executable, type ```chmod u+x amusementParkComplete``` into the terminal and try running the executable again by doing ```./amusementParkComplete filename```
-## Checkpoint Requirements
 
-# The following must be completed by 11:59 PM on 11/17/2022 
-This portion is focused on modifying existing code to change a class to an abstract base class, and to create template functions from your redundant code in driver.cpp. So, for example, if you have two methods that do the exact same work but with different parameter data types or returns, you should make it into a template function. Please note that the only place it currently makes sense to use template functions is in driver.cpp
-
-**NOTE:** Compilation of the makefile and running the executable should not result in any visible changes in output from PA1. 
